@@ -1,0 +1,5 @@
+input()
+a_list = sorted(map(int, input().split()))
+a = sum(a_list[::2])
+b = sum(a_list[1::2])
+print(abs(a - b))
