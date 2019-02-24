@@ -1,0 +1,5 @@
+A, B, C = map(int, input().split())
+K = int(input())
+M = max(A, B, C)
+S = A + B + C - M + M * (2 ** K)
+print(S)
